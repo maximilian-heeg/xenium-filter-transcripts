@@ -38,6 +38,4 @@ jobs:
         with:
           files: |
             target/release/xenium-filter-transcripts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
