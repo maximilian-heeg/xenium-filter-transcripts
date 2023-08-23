@@ -16,6 +16,10 @@ jobs:
     container: centos:7
     
     steps:
+      - name: Install gcc
+        run: |
+          sudo yum install gcc
+        
       - name: Checkout
         uses: actions/checkout@v1
 
